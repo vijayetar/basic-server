@@ -573,7 +573,7 @@ button,
 
     #main > section.one {
       background-color: #4c5050;
-      background-image: url("../../images/banner.jpg");
+      background-image: url("../images/banner.jpg");
     }
 
     #main > section.two {

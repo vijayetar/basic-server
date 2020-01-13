@@ -742,6 +742,95 @@ button,
 
   /* Header */
 
+  #header {
+    width: 20%;
+  }
+
+  #logo .image {
+    position: relative;
+    margin: 0 0 0.5em 0;
+  }
+
+  #nav ul li a {
+    font-size: 0.8em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+
+    #nav ul li a span {
+      padding-right: 2.25em;
+    }
+
+      #nav ul li a span:before {
+        left: 100%;
+        margin-left: -1.25em;
+        line-height: 2.25em;
+      }
+
+  /* Footer */
+
+    #footer {
+      margin-left: 0;
+      width:80%;
+      float:right;
+    }
+
+  /* Main */
+
+    #main {
+      -moz-backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+      -ms-backface-visibility: hidden;
+      backface-visibility: hidden;
+      -moz-transition: -moz-transform 0.5s ease;
+      -webkit-transition: -webkit-transform 0.5s ease;
+      -ms-transition: -ms-transform 0.5s ease;
+      transition: transform 0.5s ease;
+      padding-bottom: 1px;
+      margin-left: 0;
+      width: 80%;
+      float:right;
+    }
+
+      #main > section {
+        padding: 3em 0;
+      }
+
+      #main section.cover {
+        padding: 4em 0;
+      }
+
+}
+
+/* Mobile */
+
+@media screen and (max-width: 736px) {
+
+  /* Basic */
+
+    body, input, textarea, select {
+      font-size: 10pt;
+    }
+
+    h2 {
+      font-size: 1.5em;
+      letter-spacing: 0;
+      font-weight: 300;
+    }
+
+    .container {
+      padding: 0 15px 0 15px;
+    }
+
+  /* List */
+
+    ul.icons a {
+      width: 2em;
+      font-size: 1.25em;
+    }
+
+    /* Header */
+
     #header {
       -moz-backface-visibility: hidden;
       -webkit-backface-visibility: hidden;
@@ -840,18 +929,20 @@ button,
           line-height: 2.25em;
         }
 
+    
+
     body.header-visible #main {
-      -moz-transform: translateX(275px);
-      -webkit-transform: translateX(275px);
-      -ms-transform: translateX(275px);
-      transform: translateX(275px);
+      -moz-transform: translateX(100px);
+      -webkit-transform: translateX(100px);
+      -ms-transform: translateX(100px);
+      transform: translateX(100px);
     }
 
     body.header-visible #headerToggle {
-      -moz-transform: translateX(275px);
-      -webkit-transform: translateX(275px);
-      -ms-transform: translateX(275px);
-      transform: translateX(275px);
+      -moz-transform: translateX(100px);
+      -webkit-transform: translateX(100px);
+      -ms-transform: translateX(100px);
+      transform: translateX(100px);
     }
 
     body.header-visible #header {
@@ -861,66 +952,11 @@ button,
       transform: translateX(0);
     }
 
-  /* Footer */
-
-    #footer {
-      margin-left: 0;
-    }
-
   /* Main */
-
     #main {
-      -moz-backface-visibility: hidden;
-      -webkit-backface-visibility: hidden;
-      -ms-backface-visibility: hidden;
-      backface-visibility: hidden;
-      -moz-transition: -moz-transform 0.5s ease;
-      -webkit-transition: -webkit-transform 0.5s ease;
-      -ms-transition: -ms-transform 0.5s ease;
-      transition: transform 0.5s ease;
-      padding-bottom: 1px;
-      margin-left: 0;
+      width: 100%;
+      float: none;
     }
-
-      #main > section {
-        padding: 3em 0;
-      }
-
-      #main section.cover {
-        padding: 4em 0;
-      }
-
-}
-
-/* Mobile */
-
-@media screen and (max-width: 736px) {
-
-  /* Basic */
-
-    body, input, textarea, select {
-      font-size: 14pt;
-    }
-
-    h2 {
-      font-size: 1.5em;
-      letter-spacing: 0;
-      font-weight: 300;
-    }
-
-    .container {
-      padding: 0 15px 0 15px;
-    }
-
-  /* List */
-
-    ul.icons a {
-      width: 2em;
-      font-size: 1.25em;
-    }
-
-  /* Main */
-
     #main > section {
       padding: 2em 0;
     }
@@ -936,6 +972,8 @@ button,
   /* Footer */
 
     #footer .copyright li {
+      width: 100%;
+      float: none;
       display: block;
       line-height: 1.25em;
       border: 0;

@@ -20,8 +20,8 @@ Number and name of feature: ______Feature 2 Add Functionality___________________
 
 Estimate of time needed to complete: __30min___
 
-Start time: _0900____
+Start time: _0926____
 
-Finish time: ___0926__
+Finish time: ___1200__
 
-Actual time needed to complete: ___26__
+Actual time needed to complete: ___2.5hrs__
